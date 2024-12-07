@@ -1,0 +1,26 @@
+{
+    "root": "/home/poodle/decision-transformer",
+    "program": "experiment_test.py",
+    "git": {
+        "remote": "https://github.com/kzl/decision-transformer.git",
+        "commit": "e2d82e68f330c00f763507b3b01d774740bee53f"
+    },
+    "email": null,
+    "startedAt": "2024-12-07T12:03:37.353807",
+    "host": "poodle",
+    "username": "poodle",
+    "executable": "/home/poodle/miniconda3/envs/new-env/bin/python",
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.5",
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "args": [],
+    "state": "finished",
+    "jobType": null,
+    "mode": "run",
+    "name": "gym-test-experiment-hopper-medium-631957",
+    "project": "decision-transformer",
+    "heartbeatAt": "2024-12-07T12:08:33.497937",
+    "exitcode": 0
+}

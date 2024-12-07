@@ -1,0 +1,76 @@
+2024-12-07 17:33:37,691 DEBUG   MainThread:27259 [wandb_config.py:_load_defaults():133] no defaults not found in config-defaults.yaml
+2024-12-07 17:33:38,045 DEBUG   MainThread:27259 [meta.py:_setup_code_git():49] probe for git information
+2024-12-07 17:33:38,123 DEBUG   MainThread:27259 [run_manager.py:__init__():547] Initialized sync for decision-transformer/cb5mbmq9
+2024-12-07 17:33:38,126 INFO    MainThread:27259 [run_manager.py:wrap_existing_process():1147] wrapping existing process 27225
+2024-12-07 17:33:38,126 WARNING MainThread:27259 [io_wrap.py:register():104] SIGWINCH handler was not None: <Handlers.SIG_DFL: 0>
+2024-12-07 17:33:38,165 INFO    MainThread:27259 [run_manager.py:init_run():926] system metrics and metadata threads started
+2024-12-07 17:33:38,165 INFO    MainThread:27259 [run_manager.py:init_run():965] upserting run before process can begin, waiting at most 10 seconds
+2024-12-07 17:33:38,612 INFO    Thread-15 :27259 [run_manager.py:_upsert_run():1054] saving pip packages
+2024-12-07 17:33:38,612 INFO    Thread-15 :27259 [run_manager.py:_upsert_run():1056] initializing streaming files api
+2024-12-07 17:33:38,613 INFO    Thread-15 :27259 [run_manager.py:_upsert_run():1063] unblocking file change observer, beginning sync with W&B servers
+2024-12-07 17:33:38,613 INFO    MainThread:27259 [run_manager.py:wrap_existing_process():1164] informing user process we are ready to proceed
+2024-12-07 17:33:38,615 INFO    MainThread:27259 [run_manager.py:_sync_etc():1296] entering loop for messages from user process
+2024-12-07 17:33:39,027 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/config.yaml
+2024-12-07 17:33:39,463 INFO    Thread-4  :27259 [run_manager.py:_on_file_created():681] file/dir created: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:33:39,464 INFO    Thread-4  :27259 [run_manager.py:_on_file_created():681] file/dir created: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/requirements.txt
+2024-12-07 17:33:39,464 INFO    Thread-4  :27259 [run_manager.py:_on_file_created():681] file/dir created: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:33:45,028 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:33:45,029 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-history.jsonl
+2024-12-07 17:33:45,029 INFO    Thread-4  :27259 [run_manager.py:_on_file_created():681] file/dir created: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-summary.json
+2024-12-07 17:33:54,032 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:33:54,032 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-summary.json
+2024-12-07 17:33:54,033 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-history.jsonl
+2024-12-07 17:33:55,032 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:33:55,033 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:34:07,039 INFO    Thread-4  :27259 [run_manager.py:_on_file_created():681] file/dir created: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:34:11,040 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:34:27,046 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:34:37,050 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:34:43,054 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:34:59,060 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:35:07,063 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:35:15,066 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:35:31,073 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:35:37,076 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:35:47,080 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:35:57,084 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:35:57,084 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-summary.json
+2024-12-07 17:35:57,084 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-history.jsonl
+2024-12-07 17:36:03,087 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:36:08,089 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:36:19,093 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:36:35,099 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:36:38,101 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:36:51,106 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:37:07,112 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:37:08,113 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:37:23,119 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:37:38,125 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:37:39,126 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:37:55,132 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:38:08,137 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:38:08,137 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-summary.json
+2024-12-07 17:38:08,138 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:38:08,138 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-history.jsonl
+2024-12-07 17:38:11,138 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:38:17,141 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:38:17,141 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-summary.json
+2024-12-07 17:38:17,141 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-history.jsonl
+2024-12-07 17:38:27,146 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:38:32,747 INFO    MainThread:27259 [run_manager.py:_sync_etc():1319] received message from user process: {"exitcode": 0}
+2024-12-07 17:38:32,747 INFO    MainThread:27259 [run_manager.py:_sync_etc():1406] closing log streams and sending exitcode to W&B
+2024-12-07 17:38:32,748 INFO    MainThread:27259 [run_manager.py:shutdown():1070] shutting down system stats and metadata service
+2024-12-07 17:38:33,150 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/output.log
+2024-12-07 17:38:33,151 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-summary.json
+2024-12-07 17:38:33,151 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-events.jsonl
+2024-12-07 17:38:33,151 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-history.jsonl
+2024-12-07 17:38:33,498 INFO    MainThread:27259 [run_manager.py:shutdown():1084] stopping streaming files and file change observer
+2024-12-07 17:38:34,151 INFO    Thread-4  :27259 [run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:38:37,036 INFO    MainThread:27259 [run_manager.py:_sync_etc():1425] rendering summary
+2024-12-07 17:38:37,038 INFO    MainThread:27259 [run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2024-12-07 17:38:37,040 INFO    MainThread:27259 [run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/mehul22295-indraprastha-institute-of-information-technol/decision-transformer/runs/cb5mbmq9
+r.py:shutdown():1084] stopping streaming files and file change observer
+2024-12-07 17:38:34,151 INFO    Thread-4  :27259 [cb5mbmq9:run_manager.py:_on_file_modified():692] file/dir modified: /home/poodle/decision-transformer/gym/wandb/run-20241207_120336-cb5mbmq9/wandb-metadata.json
+2024-12-07 17:38:37,036 INFO    MainThread:27259 [cb5mbmq9:run_manager.py:_sync_etc():1425] rendering summary
+2024-12-07 17:38:37,038 INFO    MainThread:27259 [cb5mbmq9:run_manager.py:_sync_etc():1457] syncing files to cloud storage
+2024-12-07 17:38:37,040 INFO    MainThread:27259 [cb5mbmq9:run_manager.py:_sync_etc():1466] syncing complete: https://app.wandb.ai/mehul22295-indraprastha-institute-of-information-technol/decision-transformer/runs/cb5mbmq9
